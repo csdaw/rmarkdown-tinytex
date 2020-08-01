@@ -9,8 +9,6 @@ LABEL maintainer="Charlotte Dawson <csdaw@outlook.com>" \
       author.orcid="0000-0002-7151-5971" \
       org.opencontainers.image.url="https://hub.docker.com/repository/docker/csdaw/rmarkdown-tinytex" \
       org.label-schema.vcs-url="https://github.com/csdaw/rmarkdown-tinytex" \
-      org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.license="MIT"
 
 # install tinytex linux dependencies, pandoc, and rmarkdown

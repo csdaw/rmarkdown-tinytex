@@ -1,16 +1,13 @@
 #!/bin/bash
 
+echo "Build hook running"
 R=$(echo $DOCKER_TAG | cut -d "-" -f2)
 
 if [ $DOCKER_TAG == "latest" ]
 then
   docker build . --build-arg R=${DOCKER_TAG} \
-                 --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
-                 --build-arg VCS_REF=`git rev-parse --short HEAD`\
                  -t ${IMAGE_NAME}
 else
   docker build . --build-arg R=${R} \
-                 --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
-                 --build-arg VCS_REF=`git rev-parse --short HEAD`\
                  -t ${IMAGE_NAME}
 fi

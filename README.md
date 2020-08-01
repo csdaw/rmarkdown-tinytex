@@ -1,9 +1,12 @@
 rmarkdown-tinytex
 ================
 
-[![](https://images.microbadger.com/badges/commit/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex)
-[![](https://images.microbadger.com/badges/image/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex)
-[![](https://images.microbadger.com/badges/license/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex)
+[![pulls](https://img.shields.io/docker/pulls/csdaw/rmarkdown-tinytex)](https://hub.docker.com/r/csdaw/rmarkdown-tinytex "Number of pulls from Docker Hub")
+[![image](https://images.microbadger.com/badges/image/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex "View image on microbadger.com")
+[![dockerfile](https://img.shields.io/badge/dockerfile%20on-github-blue.svg)](https://github.com/csdaw/rmarkdown-tinytex "Dockerfile source repository")
+[![base](https://img.shields.io/badge/depends%20on-rocker%2Fr--ver-blue)](https://hub.docker.com/r/rocker/r-ver "Docker base image")
+[![license](https://images.microbadger.com/badges/license/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex "View image on microbadger.com")
+
 
 A minimal docker image for knitting R Markdown documents. I use this image as 
 the base for the Dockerfiles in my reproducible research projects.
@@ -18,6 +21,10 @@ Includes:
 ## Build image
 
 ```bash
+# latest R version
+docker build . -t rmarkdown-tinytex --build-arg R=latest
+
+# specific R version
 docker build . -t rmarkdown-tinytex --build-arg R=4.0.2
 ```
 
