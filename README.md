@@ -1,6 +1,10 @@
 rmarkdown-tinytex
 ================
 
+[![](https://images.microbadger.com/badges/commit/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex)
+[![](https://images.microbadger.com/badges/image/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex)
+[![](https://images.microbadger.com/badges/license/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex)
+
 A minimal docker image for knitting R Markdown documents. I use this image as 
 the base for the Dockerfiles in my reproducible research projects.
 
