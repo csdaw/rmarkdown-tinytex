@@ -2,7 +2,7 @@ rmarkdown-tinytex
 ================
 
 [![pulls](https://img.shields.io/docker/pulls/csdaw/rmarkdown-tinytex)](https://hub.docker.com/r/csdaw/rmarkdown-tinytex "Number of pulls from Docker Hub")
-[![image](https://images.microbadger.com/badges/image/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex "View image on microbadger.com")
+![image](https://img.shields.io/docker/image-size/csdaw/rmarkdown-tinytex/latest)
 [![dockerfile](https://img.shields.io/badge/dockerfile%20on-github-blue.svg)](https://github.com/csdaw/rmarkdown-tinytex "Dockerfile source repository")
 [![base](https://img.shields.io/badge/depends%20on-rocker%2Fr--ver-blue)](https://hub.docker.com/r/rocker/r-ver "Docker base image")
 [![license](https://images.microbadger.com/badges/license/csdaw/rmarkdown-tinytex.svg)](https://microbadger.com/images/csdaw/rmarkdown-tinytex "View image on microbadger.com")
